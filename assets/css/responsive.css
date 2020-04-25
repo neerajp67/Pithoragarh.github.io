@@ -1,0 +1,72 @@
+/* #Tablet (Landscape)
+================================================== */
+
+@media only screen and (max-width: 1080px) {
+
+.is-sticky #header,
+.is-sticky #hornav {
+	position: relative !important;
+	width: auto !important;
+	top: 0 !important;
+	left: 0;
+	margin-left: 0;
+}
+
+.primary-container-background .primary-container {width: 100%;}
+
+/* Disable CSS animations */
+.animated {
+    -webkit-animation-duration: 0;
+    animation-duration: 0;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+}
+
+}
+
+/* #Tablet (Portrait)
+================================================== */
+    
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* #Mobile
+================================================== */
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+	
+}
+	
+	
+/* #Mobile 
+================================================== */
+
+@media only screen and (min-width: 575px) and (max-width:767px) {
+
+.carousel-control.right span, .carousel-control.icon-next span {
+    right: 20%;
+}
+.carousel-control.left span, .carousel-control.icon-prev span {
+    left: 15%;
+}
+
+}
+
+/* #Mobile 
+================================================== */
+
+@media only screen and (min-width: 480px) and (max-width:574px) {
+	
+}
+
+/*  #Mobile 
+================================================== */
+
+@media only screen and (max-width: 479px) {
+
+	
+}
+
+
